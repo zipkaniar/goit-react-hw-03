@@ -17,7 +17,7 @@ function App() {
       setContacts(JSON.parse(storedContacts));
     }
   }, []);
-
+//Hocama teşekkürler//
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
